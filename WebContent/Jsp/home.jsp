@@ -148,9 +148,184 @@
 			</div>
 		</header>
 
+		<div class="home_content_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_date">December 4, 2018</div>
+							<div class="home_title">Shape the future</div>
+							<div class="home_location">Konstanz,Germany</div>
+							<div class="home_text">Work with people, post problems to be solved and share your ideas</div>
+							<div class="home_buttons">
+								<div class="button home_button"><a href="#">Post your Project Now!</a></div>
+								<div class="button home_button"><a href="#">Post a Problem to be solved!</a></div>
+								<div class="button home_button"><a href="#">Find out more</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
+	<!-- Intro -->
 
+	<div class="intro">
+		<div class="intro_content d-flex flex-row flex-wrap align-items-start justify-content-between">
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="${pageContext.request.contextPath}/resources/images/intro_1.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Projects in progress</a></div>
+					<div class="intro_subtitle">Take a look on the projects in progress and perhaps share an idea about them</div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="${pageContext.request.contextPath}/resources/images/intro_2.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Problems need to be solved</a></div>
+					<div class="intro_subtitle">Take a look at the problems that need to be solved, perhaps you might be the one or know the one who can work on them!</div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="${pageContext.request.contextPath}/resources/images/intro_3.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Researchers</a></div>
+					<div class="intro_subtitle">The most invloved researchers on the projects</div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="${pageContext.request.contextPath}/resources/images/intro_4.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Partners</a></div>
+					<div class="intro_subtitle">Companies, Universities, Governments and individuels</div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="${pageContext.request.contextPath}/resources/images/intro_5.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Directory</a></div>
+					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
+				</div>
+			</div>
+
+			<!-- Intro Item -->
+			<div class="intro_item">
+				<div class="intro_image"><img src="${pageContext.request.contextPath}/resources/images/intro_6.jpg" alt=""></div>
+				<div class="intro_body">
+					<div class="intro_title"><a href="#">Speakers Schedule</a></div>
+					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Pricing -->
+
+<!-- 	<div class="pricing"> -->
+<!-- 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="../images/pricing.jpg" data-speed="0.8"></div> -->
+<!-- 		<div class="container"> -->
+<!-- 			<div class="row"> -->
+<!-- 				<div class="col text-center"> -->
+<!-- 					<div class="pricing_section_title">Choose a plan</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 			<div class="row pricing_row"> -->
+				
+<!-- 				Pricing Item -->
+<!-- 				<div class="col-lg-4 pricing_col"> -->
+<!-- 					<div class="pricing_item"> -->
+<!-- 						<div class="pricing_item_content"> -->
+<!-- 							<div class="pricing_level">Beginner</div> -->
+<!-- 							<div class="pricing_price">Free</div> -->
+<!-- 							<ul class="pricing_list"> -->
+<!-- 								<li>3 Conference Tickets</li> -->
+<!-- 								<li>Vip Table</li> -->
+<!-- 								<li>Drinks</li> -->
+<!-- 								<li>Special PASS</li> -->
+<!-- 								<li>VIP Dinner</li> -->
+<!-- 							</ul> -->
+<!-- 							<div class="pricing_info"> -->
+<!-- 								<a href="#">i</a> -->
+<!-- 							</div> -->
+<!-- 							<div class="button pricing_button"><a href="#">Order plan</a></div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+
+<!-- 				Pricing Item -->
+<!-- 				<div class="col-lg-4 pricing_col"> -->
+<!-- 					<div class="pricing_item pricing_item_mid"> -->
+<!-- 						<div class="pricing_item_content"> -->
+<!-- 							<div class="pricing_level">recommended</div> -->
+<!-- 							<div class="pricing_price">$29<span>90</span></div> -->
+<!-- 							<ul class="pricing_list"> -->
+<!-- 								<li>3 Conference Tickets</li> -->
+<!-- 								<li>Vip Table</li> -->
+<!-- 								<li>Drinks</li> -->
+<!-- 								<li>Special PASS</li> -->
+<!-- 								<li>VIP Dinner</li> -->
+<!-- 							</ul> -->
+<!-- 							<div class="pricing_info"> -->
+<!-- 								<a href="#">i</a> -->
+<!-- 							</div> -->
+<!-- 							<div class="button pricing_button"><a href="#">Order plan</a></div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+
+<!-- 				Pricing Item -->
+<!-- 				<div class="col-lg-4 pricing_col"> -->
+<!-- 					<div class="pricing_item"> -->
+<!-- 						<div class="pricing_item_content"> -->
+<!-- 							<div class="pricing_level">Professional</div> -->
+<!-- 							<div class="pricing_price">$59<span>90</span></div> -->
+<!-- 							<ul class="pricing_list"> -->
+<!-- 								<li>3 Conference Tickets</li> -->
+<!-- 								<li>Vip Table</li> -->
+<!-- 								<li>Drinks</li> -->
+<!-- 								<li>Special PASS</li> -->
+<!-- 								<li>VIP Dinner</li> -->
+<!-- 							</ul> -->
+<!-- 							<div class="pricing_info"> -->
+<!-- 								<a href="#">i</a> -->
+<!-- 							</div> -->
+<!-- 							<div class="button pricing_button"><a href="#">Order plan</a></div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+
+
+
+	<!-- Call to action -->
+
+	<div class="cta">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="${pageContext.request.contextPath}/resources/images/cta_1.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_content text-center">
+						<div class="cta_title">Register Now!</div>
+						<div class="button cta_button"><a href="#">Find out more</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer -->
 
